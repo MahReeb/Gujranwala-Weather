@@ -58,7 +58,7 @@ plt.plot(df["Date"], df["Min_Temp"], marker = "o", color = 'blue', label = "Min 
 plt.xticks(rotation = 10)
 plt.xlabel("Date")
 plt.ylabel("Temperature")
-plt.title("Gujranwala Weather History")
+plt.title("Gujranwala Weather")
 plt.legend()
 plt.tight_layout()
 
