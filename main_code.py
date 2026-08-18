@@ -77,3 +77,8 @@ if os.path.exists(path):
     print("Found")
 else:
     print("Not found")
+
+
+print("Data saved to: ", os.path.abspath(path))
+print("Chart saved to: ", os.path.abspath("weather-chart.png"))
+print("Data saved to: ", os.path.abspath("data/daily-data.csv"))
