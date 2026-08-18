@@ -66,3 +66,14 @@ plt.tight_layout()
 
 plt.savefig("weather-chart.png")
 plt.show()
+
+#--------------------------------------------------
+
+print("Current Directory: ", os.getcwd())
+
+path = "data/daily-data.csv"
+
+if os.path.exists(path):
+    print("Found")
+else:
+    print("Not found")
